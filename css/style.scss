@@ -1,0 +1,147 @@
+.wrapper {
+    margin-inline: 4%;
+
+    .title {
+        color: #5fb9c4;
+        font-weight: 300;
+        font-size: 50px;
+    }
+
+    span {
+        color: #767676;
+    }
+}
+
+
+
+.card {
+
+    background-color: #f3f3f3 !important;
+    cursor: pointer;
+
+    .card-body {
+
+
+        .card-title {
+            color: #5fb9c4;
+        }
+
+        .card-text,
+        .footer {
+            color: #767676;
+        }
+
+        .date span {
+
+            padding-left: 5px;
+
+        }
+
+        .comments span {
+            padding-left: 5px;
+        }
+
+    }
+}
+
+.modal {
+
+    .modal-body {
+        align-items: start;
+        padding-bottom: 150px;
+
+        #title {
+            color: #5fb9c4;
+            font-size: 20px;
+
+        }
+
+        .text {
+
+            font-size: 12px;
+            // height: 50%;
+            //padding-bottom: 80px;
+        }
+    }
+}
+
+
+.container1 {
+
+    margin-bottom: 40px;
+}
+
+.footer_bottom {
+
+    background-color: #17a6b6;
+
+    .row {
+        margin-inline: 4%;
+        padding-bottom: 45px;
+        padding-top: 45px;
+
+        img{
+            max-height: 250px;
+            padding-top: 70px;
+        }
+        .icons {
+
+
+            padding-top: 30px;
+            border-bottom: 1px solid;
+            border-color: #f3f3f3;
+            padding-bottom: 30px;
+
+            .circle {
+
+                border: 20px solid;
+                border-radius: 60%;
+                background-color: white;
+                border-color: white;
+
+            }
+        }
+
+        .text {
+            color: white;
+            padding-left: 20px;
+        }
+
+        .top {
+
+            color: white;
+        }
+
+        .location {
+
+            padding-top: 30px;
+        }
+
+        .phone {
+
+            padding-top: 30px;
+        }
+
+        .email {
+            padding-top: 30px;
+        }
+
+        button {
+            margin-top: 30px;
+        }
+
+    }
+      
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for tablet and mobile*/
+   
+    body{
+        width: 100%;
+
+        font-size: 14px;
+    }
+  }
+
+
